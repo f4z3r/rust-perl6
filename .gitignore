@@ -1,0 +1,12 @@
+/target
+**/*.rs.bk
+Cargo.lock
+
+# transitory files
+.DS_Store
+.#*
+*.swp
+*.swo
+
+# perl
+.precomp/
