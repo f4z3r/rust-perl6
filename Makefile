@@ -7,7 +7,7 @@ rust-test:
 
 .PHONY: pl6-test
 pl6-test: target/debug/librust_perl6.*
-	cd pl6 && prove -e perl6 -r t/
+	cd pl6 && prove -e perl6 -r t/ -v
 
 target/debug/librust_perl6.*: src/lib.rs
 	cargo build
